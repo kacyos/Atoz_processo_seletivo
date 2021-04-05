@@ -1,22 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import { CContainer } from "@coreui/react";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <CContainer className="form-div">
+          <h1 className="form-pre-challenge-greeting">
+            Construa aqui seu formulário! <br /> Boa sorte e, se tiver alguma
+            dúvida, pode me mandar no arthur.abreu@atoz.vc
+          </h1>
+        </CContainer>
       </header>
     </div>
   );
