@@ -31,7 +31,7 @@ Os inputs do usuário são os seguintes:
 
 -Email: deve checar se é um email. É obrigatório para o usuário
 
--Celular: deve checar se é um email. Não é obrigatório para o usuário
+-Celular: deve checar se é um número de celular (do Brasil). Não é obrigatório para o usuário
 
 -Senha: deve conter no mínimo 8 caracteres e que não existam símbolos, apenas letras (maiusculas ou minúsculas). É obrigatório para o usuário
 
