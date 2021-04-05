@@ -7,7 +7,9 @@ Nessa próxima etapa vamos colocar mais a mão na massa mesmo!
 ## Sobre o desafio
 
 Você deverá desenvolver um formuário que simula entrada de usuários e checa se as entradas estão corretas ou não,
-apresentando o erro caso seja o caso ou a sequência do flow de envio caso não exista.
+apresentando o erro ao usuário ou apresentando uma mensagem de "envio feito com sucesso" depois das checagens dos campos.
+O formulário precisa obrigatoriamente ser RESPONSIVO. Para isso, peço que em telas grandes tenham 2 colunas de campos que se transforma em 1 em telas menores (mobile ou tablet). 
+
 
 ## Sobre a instalação
 
@@ -25,53 +27,32 @@ Depois disso é só codar :)
 
 Os inputs do usuário são os seguintes:
 
-Nome
-Email
-Celular
-Senha
-Confirmação de senha
+-Nome: deve checar se é uma string e deve conter no mínimo 6 caracteres. É obrigatório para o usuário
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Email: deve checar se é um email. É obrigatório para o usuário
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Celular: deve checar se é um email. Não é obrigatório para o usuário
 
-### `yarn eject`
+-Senha: deve conter no mínimo 8 caracteres e que não existam símbolos, apenas letras (maiusculas ou minúsculas). É obrigatório para o usuário
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-Confirmação de senha: deve ser igual a senha. É obrigatório para o usuário
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Caso algum desses requisitos não esteja correto, o usuário tem que ser apresentado ao problema e ser impedido de continuar com o envio do formulário.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Informações extras
 
-## Learn More
+Esse desafio foi criado usando create-react-app.
+A biblioteca para os componentes que sugiro é a @coreui/react e já esta instalada no projeto. Isso facilitará seu tempo de desenvolvimento além de ajudar - e muito - na responsividade.
+As bibliotecas para validação que sugiro são o "formik" em conjunto com o "yup". Ambos também já estão instalados no projeto. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Documentações
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://github.com/jquense/yup - Yup
 
-### Code Splitting
+https://github.com/coreui/coreui-react - CoreUI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://formik.org/docs/overview - Formik
 
-### Analyzing the Bundle Size
+https://pt-br.reactjs.org/docs/getting-started.html - React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
