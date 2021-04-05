@@ -1,28 +1,35 @@
-# Getting Started with Create React App
+# Desafio vaga de desenvolvedor frontend Jr. na Atoz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Olá! Primeiramente parabéns por chegar até aqui!
+Nessa próxima etapa vamos colocar mais a mão na massa mesmo! 
+É um desafio simples, então vamos a ele!
 
-## Available Scripts
+## Sobre o desafio
 
-In the project directory, you can run:
+Você deverá desenvolver um formuário que simula entrada de usuários e checa se as entradas estão corretas ou não,
+apresentando o erro caso seja o caso ou a sequência do flow de envio caso não exista.
 
-### `yarn start`
+## Sobre a instalação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Dê fork com o git nesse repositório, clone em uma pasta local e rode o comando
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm install`
 
-### `yarn test`
+Após a instalação de todas as dependências você pode rodar o projeto usando o comando
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm start`
 
-### `yarn build`
+Depois disso é só codar :)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Requisitos do formulário
+
+Os inputs do usuário são os seguintes:
+
+-Nome
+-Email
+-Celular
+-Senha
+-Confirmação de senha
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
