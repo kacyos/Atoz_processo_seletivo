@@ -25,11 +25,11 @@ Depois disso é só codar :)
 
 Os inputs do usuário são os seguintes:
 
--Nome
--Email
--Celular
--Senha
--Confirmação de senha
+Nome
+Email
+Celular
+Senha
+Confirmação de senha
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
