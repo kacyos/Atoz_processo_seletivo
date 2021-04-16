@@ -22,7 +22,7 @@
 .form-div {
   background-color: #fff;
   width: 50vw;
-  height: 50vh;
+  height: auto;
   min-width: 300px;
   min-height: 300px;
   border-radius: 20px;
@@ -34,4 +34,37 @@
   color: #1a1919;
   text-align: left;
   font-size: 2rem;
+}
+
+.group-form {
+  color: #1a1919;
+  font-size: 1.2rem;
+}
+
+.group-form > label {
+  margin-bottom: 2px;
+}
+
+.btn-submit {
+  margin-top: 16px;
+}
+
+.alert {
+  padding: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.modal-content {
+  background-color: #2eb85c;
+  border: 0;
+}
+
+
+@media (max-width: 576px) {
+  .btn-submit {
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+  }
 }
